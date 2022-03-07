@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=5, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="txtBrowser">Browser:
+            <input type="text" id="txtBrowser" list="Browser" required></label> <br>
+        <datalist id="Browser">
+            <option value="Google Chorm"></option>
+            <option value="Fire Fox"></option>
+            <option value="CocCoc"></option>
+        </datalist>
+        <label for="txtUserName">UserName:
+            <input type="text" id="txtUserName" required></br></label>
+        <label for="txtEncry">Encryption:
+            <input type="text" id="txtEncry" list="Encry" required></label> <br>
+            <datalist id="Encry">
+                <option value="2048(high grade)"></option>
+                <option value="2047(high grade)"></option>
+                <option value="2046(high grade)"></option>
+            </datalist>
+        <label for="dtBirthDay">BirthDay:
+            <input type="date" id="dtBirthDay" required></label> <br>
+        <label for="clrColor">Select your favorite color:
+            <input type="color" id="clrColor" required></label> <br>
+        <label for="dtBirthDayMonthYear">BirthDay(month and year):
+            <input type="month" id="dtBirthDayMonthYear"></label> <br>
+        <label for="dtWeek">Select a week:
+            <input type="week" id="dtWeek" required></label> <br>
+        <label for="dtTime">Select a time:
+            <input type="time" id="dtTime" required></label> <br>
+        <label for="dtBirthDayDateAndTime">BirthDay(date and time):
+            <input type="datetime" id="dtBirthDayDateAndTime"></label> <br>
+        <label for="txtEmail">Email:
+            <input type="email" id="txtEmail" required></label><br>
+        <label for="txtSearch">Search Google:
+            <input type="text" id="txtSearch" required></label><br>        
+        <label for="SDT">Telephone:
+            <input type="tel" id="SDT" required></label><br>
+        <label for="txtHomePage">Add your homepage:
+            <input type="text" id="txtHomePage" required></label><br>
+        <button type="submit">submit</button> <br>
+        <p>Note: the datalist tag is not supported in safari or Ie9</p>
+    </form>
+</body>
+</html>
